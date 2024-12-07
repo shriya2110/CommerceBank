@@ -1,0 +1,54 @@
+.budget-screen {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .budget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .date-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-selector select,
+  .date-selector input {
+    margin-left: 10px;
+    height: 25px;
+  }
+  
+  .budget-sections {
+    margin-top: 20px;
+  }
+  
+  .budget-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .budget-footer button {
+    margin-left: 10px;
+  }
+
+  .input-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .budget-inputs {
+    width: 97%;
+    padding: 7px;
+    height: 20px;
+    margin-top: 5px;
+  }
+  
+  .budget-name {
+    margin-top: 10px;
+    max-width: 50%;
+  }

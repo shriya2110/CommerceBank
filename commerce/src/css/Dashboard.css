@@ -1,0 +1,78 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .summary-section {
+    margin-bottom: 30px;
+  }
+  
+  .summary-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .summary-item h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .summary-item p {
+    font-size: 24px;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .chart-section {
+    margin-top: 40px;
+  }
+  
+  .chart-container {
+    margin-bottom: 40px;
+    text-align: center;
+    max-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chart-container canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .notifications {
+    background-color: #ffcc00;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .notification {
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .badge-container {
+    display: flex;
+    gap: 8px; /* Space between badges */
+    margin-top: 20px;
+  }
+  
+  .badge-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    color: antiquewhite;
+  }
+  

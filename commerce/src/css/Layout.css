@@ -1,0 +1,49 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .layout-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #134a63;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .header-logo-title {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .logo-image {
+    width: 65px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .logout-button {
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 8px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff3333;
+  }
+  
+  .layout-content {
+    padding: 20px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    flex-grow: 1;
+  }
+  

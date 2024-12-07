@@ -1,0 +1,59 @@
+.expense-tracker {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .date-picker {
+    margin-bottom: 15px;
+  }
+  
+  .expense-category {
+    margin-bottom: 10px;
+  }
+  
+  .expense-category label {
+    display: inline-block;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .logged-expenses ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logged-expenses li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+
+  .expense-input {
+    margin-top: 5px;
+  }
+
+  .back-button {
+    height: 20px;
+  }
+
+  .back-block {
+    padding-bottom: 15px;
+    color: #455672;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
